@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Programmeringsspråk</title>
+	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="lab2.css">
+</head>
+
+<body>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="Lab2.html">Hjem</a>
+  <li><a href="Kronologisk.html">Kronologisk</a>
+  <li><a href="Hierarkisk.html">Hierarkisk</a>
+  <li><a href="Alfabetisk.html">Alfabetisk</a>
+</ul>
+
+
+<!-- Main content -->
+
+<div id="content">
+	
+		<form>	
+		<label for="proglangs">Søk i programmeringspråk:</label>
+		<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
+		<option value="..." >	</option>
+		<option value="asp">ActionScript</option>
+		<option value="asp">AppleScript</option>
+		<option value="asp">Asp</option>
+		<option value="basic">BASIC</option>
+		<option value="c">C</option>
+		<option value="cplusspluss">C++</option>
+		<option value="cplusspluss">Clojure</option>
+		<option value="cplusspluss">COBOL</option>
+		<option value="cf">ColdFusion</option>
+		<option value="er">Erlang</option>
+		<option value="ft">Fortran</option>
+		<option value="gry">Groovy</option>
+		<option value="hk">Haskell</option>
+		<option value="jv">Java</option>
+		<option value="jvs">JavaScript</option>
+		<option value="lisp">Lisp</option>
+		<option value="perl">Perl</option>
+		<option value="phy">Python</option>
+		<option value="ruby">Ruby</option>
+		<option value="scala">Scala</option>
+		<option value="She">Scheme</option>
+		</select>
+</form>
+	
+		<span id="outputbox">Velkommen til en mystisk verden av programmeringspråk!</span>
+		<script src="Lab2.js"></script>
+	
+
+
+<h2>Programmeringsspråk - hva er det?</h2>
+
+
+
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Laget 19 September 2013<br>
+  av Stian Mønsted.</address>
+  </div>
+  
+</body>
+</html>
