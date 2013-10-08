@@ -1,0 +1,55 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: black;
+  background-color: #385EA3 }
+ul.navigasjon {							
+
+	list-style-type: none;			
+    padding: 0;
+    margin: 0;	
+    position: absolute;				
+    top: 2em;
+    left: 1em;
+    width: 9em; 
+	
+	}
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navigasjon li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navigasjon a {
+  text-decoration: none }
+a:link {
+  color: black }
+a:visited {
+  color: black }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+ #innhold {
+ background: #fff;
+  margin-top: 10px;
+  width: 800px;
+  padding: 30px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  float:center;
+  position:relative;
+  }
+#sidebar {
+width:200px;
+}
+#wrapper{
+margin-left:auto;
+margin-right:auto;
+width:1000px;
+}
